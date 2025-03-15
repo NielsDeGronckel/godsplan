@@ -1,15 +1,12 @@
-version: "3"
-
 services:
   web:
     build: .
     ports:
-      - "8080:80"
+      - "8080:8080"
     volumes:
       - .:/var/www/html
 
   db:
-#    platform: linux/x86_64
     image: mysql:5.7
     environment:
       MYSQL_DATABASE: symfony
