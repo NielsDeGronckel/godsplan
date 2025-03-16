@@ -1,8 +1,26 @@
 services:
   web:
-    build: .
+    build:
+      context: .
+      target: web
     ports:
-      - "8080:8080"
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+
+  php:
+    build:
+      context: .
+      target: php
+    volumes:
+      - .:/var/www/html
+
+  apache:
+    build:
+      context: .
+      target: apache
+    ports:
+      - "8081:80"
     volumes:
       - .:/var/www/html
 
