@@ -3,7 +3,7 @@
         'name' => 'niels/godsplan',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '6785ceb9adf0de9d98d465fda519a74baab4d2ac',
+        'reference' => '6ca3468b471d25b6144c171d00105313aed63832',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'niels/godsplan' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '6785ceb9adf0de9d98d465fda519a74baab4d2ac',
+            'reference' => '6ca3468b471d25b6144c171d00105313aed63832',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
