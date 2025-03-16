@@ -1,3 +1,6 @@
 {
-    "name": "niels/godsplan"
+    "name": "niels/godsplan",
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    }
 }
