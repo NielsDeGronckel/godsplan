@@ -1,6 +1,4 @@
 parameters:
-    level: max
-
+    level: 3
     paths:
-        - src
-        - Admin/index.php
+        - Admin
