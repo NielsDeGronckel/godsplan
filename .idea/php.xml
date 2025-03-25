@@ -7,6 +7,11 @@
       </laravel_pint_by_interpreter>
     </laravel_pint_settings>
   </component>
+  <component name="MessDetector">
+    <phpmd_settings>
+      <phpmd_by_interpreter asDefaultInterpreter="true" interpreter_id="760b7d39-c608-4ed7-a44d-bda77d17b19d" timeout="30000" />
+    </phpmd_settings>
+  </component>
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -21,6 +26,11 @@
     <phpcsfixer_settings>
       <phpcs_fixer_by_interpreter asDefaultInterpreter="true" interpreter_id="760b7d39-c608-4ed7-a44d-bda77d17b19d" timeout="30000" />
     </phpcsfixer_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="760b7d39-c608-4ed7-a44d-bda77d17b19d" timeout="30000" />
+    </phpcs_settings>
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
