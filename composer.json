@@ -2,5 +2,8 @@
     "name": "niels/godsplan",
     "require-dev": {
         "phpstan/phpstan": "^2.1"
+    },
+    "require": {
+        "twig/twig": "^3.20"
     }
 }
