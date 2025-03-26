@@ -1,0 +1,11 @@
+.navbar-light {
+    background-color: slategray !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+}

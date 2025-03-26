@@ -1,9 +1,6 @@
 {
     "name": "niels/godsplan",
-    "require-dev": {
-
-    },
     "require": {
-        "twig/twig": "^3.20"
+        "twig/twig": "^3.0"
     }
 }

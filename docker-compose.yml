@@ -6,7 +6,7 @@ services:
       - "8080:80"
     volumes:
       - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
-      - ./Admin:/var/www/html/Admin
+      - .:/var/www/html
     depends_on:
       - php
 
