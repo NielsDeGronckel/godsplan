@@ -3,7 +3,7 @@
         'name' => 'niels/godsplan',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd864ff3195d0585953a481095f90225b95d133ce',
+        'reference' => 'd921e6d9df71d16671b6dae35aa6add614dd3d53',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -184,7 +184,7 @@
         'niels/godsplan' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd864ff3195d0585953a481095f90225b95d133ce',
+            'reference' => 'd921e6d9df71d16671b6dae35aa6add614dd3d53',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -427,8 +427,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache-implementation' => array(
