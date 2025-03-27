@@ -1,6 +1,9 @@
 {
     "name": "niels/godsplan",
     "require": {
-        "twig/twig": "^3.0"
+        "symfony/symfony": "^6.0",
+        "twig/twig": "^3.0",
+        "symfony/routing": "*",
+        "symfony/webapp-pack": "^1.3"
     }
 }
