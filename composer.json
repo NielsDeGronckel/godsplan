@@ -4,6 +4,7 @@
         "symfony/symfony": "^6.0",
         "twig/twig": "^3.0",
         "symfony/routing": "*",
-        "symfony/webapp-pack": "^1.3"
+        "symfony/webapp-pack": "^1.3",
+        "symfony/orm-pack": "^2.4"
     }
 }
