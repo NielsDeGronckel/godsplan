@@ -3,6 +3,7 @@
     "require": {
         "symfony/symfony": "^6.0",
         "twig/twig": "^3.0",
-        "symfony/framework-bundle": "^6.4"
+        "symfony/framework-bundle": "^6.4",
+        "symfony/routing": "*"
     }
 }
