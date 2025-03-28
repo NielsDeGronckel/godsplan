@@ -1,0 +1,28 @@
+services:
+  nginx:
+    container_name: godsplan-nginx
+    image: nginx:1.27.4-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - .:/var/www/html
+    depends_on:
+      - php
+
+  php:
+    container_name: godsplan-php
+    build:
+      context: .
+      target: php
+    volumes:
+      - .:/var/www/html
+
+  db:
+    container_name: godsplan-db
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: symfony
+      MYSQL_USER: symfony
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: root_secret
