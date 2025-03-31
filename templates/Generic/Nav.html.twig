@@ -1,20 +1,25 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="nav navbar navbar-expand-lg navbar-light bg-light">
     <div class="collapse navbar-collapse container justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link{{ app.request.attributes.get('_route') == 'home' ? ' active' : '' }}" href="{{ path('home') }}">Home</a>
+                <a class="nav-link{{ app.request.attributes.get('_route') == 'home' ? ' active' : '' }}"
+                   href="{{ path('home') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link{{ app.request.attributes.get('_route') == 'games' ? ' active' : '' }}" href="{{ path('games') }}">Games</a>
+                <a class="nav-link{{ app.request.attributes.get('_route') == 'games' ? ' active' : '' }}"
+                   href="{{ path('games') }}">Games</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link{{ app.request.attributes.get('_route') == 'leaderboards' ? ' active' : '' }}" href="{{ path('leaderboards') }}">Leaderboards</a>
+                <a class="nav-link{{ app.request.attributes.get('_route') == 'leaderboards' ? ' active' : '' }}"
+                   href="{{ path('leaderboards') }}">Leaderboards</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link{{ app.request.attributes.get('_route') == 'account' ? ' active' : '' }}" href="{{ path('account') }}">Account</a>
+                <a class="nav-link{{ app.request.attributes.get('_route') == 'account' ? ' active' : '' }}"
+                   href="{{ path('account') }}">Account</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link{{ app.request.attributes.get('_route') == 'contact' ? ' active' : '' }}" href="{{ path('contact') }}">Contact</a>
+                <a class="nav-link{{ app.request.attributes.get('_route') == 'contact' ? ' active' : '' }}"
+                   href="{{ path('contact') }}">Contact</a>
             </li>
         </ul>
     </div>
