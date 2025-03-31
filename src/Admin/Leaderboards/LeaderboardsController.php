@@ -1,16 +1,16 @@
 <?php
 
-namespace App\Admin\Games;
+namespace App\Admin\Leaderboards;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class GamesController extends AbstractController
+class LeaderboardsController extends AbstractController
 {
-    #[Route('/Games', name: 'games')]
+    #[Route('/Leaderboards', name: 'leaderboards')]
     public function index(): Response
     {
-        return $this->render('Games/Games.html.twig');
+        return $this->render('Leaderboards/Leaderboards.html.twig');
     }
 }
