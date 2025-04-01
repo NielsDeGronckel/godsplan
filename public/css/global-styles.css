@@ -1,0 +1,8 @@
+* {
+    font-family: 'Coolvetica', sans-serif;
+}
+
+.nav-link:hover {
+    color: grey !important;
+    transition: 2ms;
+}
