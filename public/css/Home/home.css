@@ -1,0 +1,38 @@
+.HomeContent {
+    overflow: hidden;
+}
+
+.kanye-west-wallpaper {
+    height: 50vh;
+    width: 100%;
+}
+
+.hm-gallery {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.honorable-mention-image {
+    height: 7em;
+    width: 20em;
+}
+
+.intro-text {
+    background-image: url('/assets/KANYEWESTWALLPAPER.jpg');
+    background-size: 65% 100%;
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+    color: white;
+    filter: brightness(1.5);
+    padding-bottom: 15em;
+    padding-top: 10em;
+    text-shadow: 2px 2px 2px black;
+}
+
+.hype-text {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px 2px black;
+    width: 38%;
+}
