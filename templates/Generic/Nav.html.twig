@@ -1,25 +1,27 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #412517">
-    <div class="collapse navbar-collapse container justify-content-center" id="navbarSupportedContent">
+<nav class="navbar navbar-expand-lg border-bottom" style="background-color: #C9B194;">
+    <div class="collapse navbar-collapse container justify-content-space-around" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link{{ app.request.attributes.get('_route') == 'home' ? ' active' : '' }}"
-                   style="color: white" href="{{ path('home') }}">Home</a>
+                   href="{{ path('home') }}">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link{{ app.request.attributes.get('_route') == 'games' ? ' active' : '' }}"
-                   style="color: white" href="{{ path('games') }}">Games</a>
+                   href="{{ path('games') }}">Games</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link{{ app.request.attributes.get('_route') == 'leaderboards' ? ' active' : '' }}"
-                   style="color: white" href="{{ path('leaderboards') }}">Leaderboards</a>
+                   href="{{ path('leaderboards') }}">Leaderboards</a>
             </li>
+        </ul>
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link{{ app.request.attributes.get('_route') == 'account' ? ' active' : '' }}"
-                   style="color: white" href="{{ path('account') }}">Account</a>
+                   href="{{ path('account') }}">Account</a> <!-- veranderen naar icoontje -->
             </li>
             <li class="nav-item">
                 <a class="nav-link{{ app.request.attributes.get('_route') == 'contact' ? ' active' : '' }}"
-                   style="color: white" href="{{ path('contact') }}">Contact</a>
+                   href="{{ path('contact') }}">Contact</a> <!-- veranderen naar icoontje -->
             </li>
         </ul>
     </div>

@@ -3,6 +3,6 @@
 }
 
 .nav-link:hover {
-    color: grey !important;
+    color: #DBDBDB !important;
     transition: 2ms;
 }
